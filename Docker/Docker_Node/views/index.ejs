@@ -1,0 +1,16 @@
+<%-include('header') -%>
+
+<br />
+    <!--begin::Container-->
+    <div class="container-fluid" id="funcTable">
+
+    </div>
+
+    <script type="text/javascript" src="js/funcionario.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            FuncionarioAPI.list();
+        });
+    </script>
+
+<%- include('footer') -%>

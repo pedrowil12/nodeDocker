@@ -1,0 +1,8 @@
+FROM node:alpine
+RUN mkdir /Docker_Node
+WORKDIR /Docker_Node
+COPY ./Docker_Node/package.json ./
+RUN npm install
+COPY ./Docker_Node ./
+EXPOSE 5000
+CMD ["npm", "start"]

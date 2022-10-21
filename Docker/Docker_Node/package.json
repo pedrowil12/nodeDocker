@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "docker_node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mariadb": "^3.0.1",
+    "request": "^2.88.2",
+    "requests": "^0.3.0",
+    "sequelize": "^6.25.3"
+  }
+}
